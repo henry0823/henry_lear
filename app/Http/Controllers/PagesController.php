@@ -10,7 +10,7 @@ class PagesController extends Controller
 		return view('pages.index');
 	}
 
-	public funtion abc()
+	public function abc()
 	{
 		return view('pages.abc');
 	}
