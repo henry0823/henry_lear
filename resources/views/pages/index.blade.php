@@ -1,3 +1,3 @@
-@extends('layout/stlye1')
+@extends('layout/style1')
 
 HELLO
