@@ -9,5 +9,11 @@ class PagesController extends Controller
 	{
 		return view('pages.index');
 	}
+
+	public funtion abc()
+	{
+		return view('pages.abc');
+	}
 }
+
 
