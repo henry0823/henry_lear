@@ -7,7 +7,7 @@ class PagesController extends Controller
 {
 	public function index()
 	{
-		return viwe('pages.index');
+		return view('pages.index');
 	}
 }
 
