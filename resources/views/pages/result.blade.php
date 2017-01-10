@@ -5,9 +5,9 @@
 
 
 
-$W = $_POST["weight"];
-$H = $_POST["height"];
-$S = $_POST["sex"];
+$W = $_POST['weight'];
+$H = $_POST['height'];
+$S = $_POST['sex'];
 
 if($S == 'male')
 
