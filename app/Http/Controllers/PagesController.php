@@ -10,9 +10,9 @@ class PagesController extends Controller
 		return view('pages.index');
 	}
 
-	public function abc()
+	public function bmi()
 	{
-		return view('pages.abc');
+		return view('pages.bmi');
 	}
 }
 

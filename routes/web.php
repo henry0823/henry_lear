@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/abc','PagesController@abc');
+Route::get('/bmi','PagesController@bmi');

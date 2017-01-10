@@ -34,8 +34,8 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item active" href="/">Home</a>
-          <a class="blog-nav-item" href="/abc">abc</a>
+          <a class="blog-nav-item active" href="/">首頁</a>
+          <a class="blog-nav-item" href="/bmi">BMI</a>
         </nav>
       </div>
     </div>
@@ -43,8 +43,8 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+        <h1 class="blog-title">學習日誌</h1>
+        <p class="lead blog-description">循序漸進成為一名肥宅</p>
       </div>
 
       <div class="row">
