@@ -15,6 +15,11 @@ class PagesController extends Controller
 		return view('pages.bmi');
 	}
 
+	public function result()
+	{
+		return view('pages.result');
+	}
+
 }
 
 

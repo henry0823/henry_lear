@@ -1,9 +1,8 @@
-<?php namespace App\Http\Controllers;
+@extends('layout/style1')
+@section('Hello')
 
-use Illuminate\Controller\Request;
-use App\Http\Controllers\Controller;
+<?php
 
-class PagesController extends Controller
 {
 
 	$W = $_POST["weight"];
@@ -63,6 +62,7 @@ class PagesController extends Controller
 		}
 
 	}
-}
 
 ?>
+
+@stop
