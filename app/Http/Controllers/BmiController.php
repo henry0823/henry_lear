@@ -1,9 +1,9 @@
-<?php
+<?php namespace App\Http\Controllers;
 
 use Illuminate\Controller\Request;
 use App\Http\Controllers\Controller;
 
-class PagesController extends Controller
+class BmiController extends Controller
 {
 
 	$W = $_POST["weight"];
