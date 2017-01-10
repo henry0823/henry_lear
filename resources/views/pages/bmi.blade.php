@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="result" method="post">
+<form action="/result" method="post">
 身高：<input type="text" name="height" size="7"></br>
 體重：<input type="text" name="weight" size="7"></br>
 性別：<input type="radio" name="sex" value="male">男
