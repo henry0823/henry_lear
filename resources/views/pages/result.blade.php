@@ -1,6 +1,6 @@
 @extends('layout/style1')
 @section('Hello')
 
-{{result}}
+{{ $result }}
 
 @stop
