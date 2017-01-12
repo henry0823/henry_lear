@@ -1,8 +1,7 @@
 @extends('layout/style1')
 @section('Hello')
 
-<?php
-function result();
-?>
+{{result}}
+{{answer}}
 
 @stop
