@@ -70,6 +70,7 @@ class PagesController extends Controller
 				echo "評比：皮包骨";
 			}
 		}
+	return function result();
 	}
 }
 
