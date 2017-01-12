@@ -21,12 +21,11 @@ class PagesController extends Controller
 		$W = $_GET['weight'];
 		$H = $_GET['height'];
 		$S = $_GET['sex'];
+		$value = $W/($H/100)/($H/100);
 
 		if($S == 'male')
 
 		{
-			$value = $W/($H/100)/($H/100);
-
 			$result = 'BMI：'.$value;
 
 			if($value >= '28')
@@ -49,8 +48,6 @@ class PagesController extends Controller
 
 		else
 		{
-			$value = $W/($H/100)/($H/100);
-
 			$result = 'BMI：'.$value;
 
 			if($value >= '28')
