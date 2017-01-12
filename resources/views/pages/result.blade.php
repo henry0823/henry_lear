@@ -1,8 +1,4 @@
 @extends('layout/style1')
 @section('Hello')
-
-<?php
-echo function result();
-?>
-
+function result()
 @stop
