@@ -1,6 +1,7 @@
 @extends('layout/style1')
 @section('Hello')
 
-{{ $result.</br>.$answer }}
+{{ $result.</br> }}
+{{ $answer }}
 
 @stop
