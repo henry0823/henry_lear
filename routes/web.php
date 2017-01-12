@@ -13,6 +13,6 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/bmi','PagesController@bmi');
-Route::get('/result','PagesController@result');
+Route::get('/result','BmiController@result');
 
 ?>
