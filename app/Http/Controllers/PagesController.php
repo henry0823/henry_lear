@@ -27,7 +27,7 @@ class PagesController extends Controller
 		{
 			$value = $W/($H/100)/($H/100);
 
-			$result = 'BMI：'.$value.'</br>';
+			$result = 'BMI：'.$value.'<br>';
 
 			if($value >= '28')
 			{
@@ -50,8 +50,8 @@ class PagesController extends Controller
 		else
 		{
 			$value = $W/($H/100)/($H/100);
-			
-			$result = 'BMI：'.$value.'</br>';
+
+			$result = 'BMI：'.$value.'<br>';
 
 			if($value >= '28')
 			{
@@ -70,7 +70,7 @@ class PagesController extends Controller
 				$answer = "評比：皮包骨";
 			}
 		}
-	return view('pages.result',compact('result'));
+	return view('pages.result',compact('result','answer'));
 	}
 }
 

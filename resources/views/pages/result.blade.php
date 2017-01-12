@@ -2,5 +2,6 @@
 @section('Hello')
 
 {{ $result }}
+{{ $answer }}
 
 @stop
