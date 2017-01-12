@@ -69,7 +69,7 @@ class PagesController extends Controller
 				$answer = "評比：皮包骨";
 			}
 		}
-	return view('pages.result',compact('result','answer'));
+	return view('pages.result',compact('result'));
 	}
 }
 
