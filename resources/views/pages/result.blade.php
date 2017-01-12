@@ -10,7 +10,7 @@
 <body>
 
 <?php
-return function result();
+function result();
 ?>
 
 </body>
