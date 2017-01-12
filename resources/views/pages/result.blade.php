@@ -2,4 +2,5 @@
 @section('Hello')
 
 echo $result.<br>.$answer
+
 @stop
