@@ -2,7 +2,7 @@
 @section('Hello')
 
 <?php
-function result();
+echo $result
 ?>
 
 @stop

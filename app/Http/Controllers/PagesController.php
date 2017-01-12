@@ -15,7 +15,7 @@ class PagesController extends Controller
 		return view('pages.bmi');
 	}
 
-	public function result()
+	public function result($result)
 	{
 		
 		$W = $_GET['weight'];
