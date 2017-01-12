@@ -1,7 +1,5 @@
 @extends('layout/style1')
 @section('Hello')
 
-{{ $result }}<br>
-{{ $answer }}
-
+echo $result.<br>.$answer
 @stop
