@@ -2,7 +2,7 @@
 @section('Hello')
 
 <?php
-echo '$result'.'<br>'.'$answer';
+echo $result.<br>.$answer;
 ?>
 
 @stop
