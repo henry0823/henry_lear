@@ -9,7 +9,7 @@ class BmiController extends Controller
 	$H = $_GET['height'];
 	$S = $_GET['sex'];
 
-public function result()
+	public function result()
 	{
 
 		if($S == 'male')
@@ -60,9 +60,6 @@ public function result()
 				echo "評比：皮包骨";
 			}
 		}
-	
-	return view('pages.result');
-
 	}
 }
 
