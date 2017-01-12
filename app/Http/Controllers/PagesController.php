@@ -28,17 +28,17 @@ class PagesController extends Controller
 		{
 			
 
-			$result = 'BMI：'.$bmi.'</br>';
+			$result = 'BMI：'.$value.'</br>';
 
 			if($value >= '28')
 			{
 				$answer = "評比：肥豬";
 			}
-			elseif($value < '28' && $bmi >= '24')
+			elseif($value < '28' && $value >= '24')
 			{
 				$answer = "評比：正常";
 			}
-			elseif($value < '24' && $bmi >= '20')
+			elseif($value < '24' && $value >= '20')
 			{
 				$answer = "評比：偏瘦";
 			}
@@ -50,17 +50,17 @@ class PagesController extends Controller
 
 		else
 		{
-			$result = 'BMI：'.$bmi.'</br>';
+			$result = 'BMI：'.$value.'</br>';
 
 			if($value >= '28')
 			{
 				$answer = "評比：肉肉Der";
 			}
-			elseif($value < '28' && $bmi >= '24')
+			elseif($value < '28' && $value >= '24')
 			{
 				$answer = "評比：還行";
 			}
-			elseif($value < '24' && $bmi >= '20')
+			elseif($value < '24' && $value >= '20')
 			{
 				$answer = "評比：太瘦";
 			}
