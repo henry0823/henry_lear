@@ -7,7 +7,8 @@ class PagesController extends Controller
 {
 	public function index()
 	{
-		return view('pages.index');
+		$hey = "Hello,Every Body"
+		return view('pages.index',compact('hey'));
 	}
 
 	public function bmi()
