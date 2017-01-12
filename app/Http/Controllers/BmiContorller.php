@@ -64,5 +64,6 @@ public function result()
 	return view('pages.result');
 
 	}
+}
 
 ?>
