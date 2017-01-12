@@ -27,7 +27,7 @@ class PagesController extends Controller
 		{
 			$value = $W/($H/100)/($H/100);
 
-			$result = 'BMI：'.$value."\n";
+			$result = 'BMI：'.$value.'/br';
 
 			if($value >= '28')
 			{
@@ -51,7 +51,7 @@ class PagesController extends Controller
 		{
 			$value = $W/($H/100)/($H/100);
 
-			$result = 'BMI：'.$value."\n";
+			$result = 'BMI：'.$value.'/br';
 
 			if($value >= '28')
 			{
