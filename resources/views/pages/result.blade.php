@@ -1,4 +1,10 @@
 @extends('layout/style1')
 @section('Hello')
-function result()
+
+<?php
+
+return function result();
+
+?>
+
 @stop
