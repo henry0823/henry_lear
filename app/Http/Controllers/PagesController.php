@@ -7,7 +7,7 @@ class PagesController extends Controller
 {
 	public function index()
 	{
-		$hey = "Hello,Every Body"
+		$hey = "Hello,Every Body";
 		return view('pages.index',compact('hey'));
 	}
 
