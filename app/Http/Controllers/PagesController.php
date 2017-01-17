@@ -16,39 +16,30 @@ class PagesController extends Controller
 		return view('pages.bmi');
 	}
 
-	public function favorite()
+	public function guess()
 	{
-		$favorite = ['看電視','打電動','運動','逛街','打手槍'];
+		return view('pages.guess');
+	}
 
-		foreach ($favorite as $key => $gun) 
-		{
-			echo = '猜猜小銘平常喜歡做的事：'.'br'
-			echo = '$key'.'：'.'$gun'.'br';
-		}
+	public function solution()
+	{
 
-		<<!DOCTYPE html>
-		<html>
-		<head>
-			<title></title>
-		</head>
-		<body>
-
-		<form action="/guess" method="get">
-		請輸入：<input type="text" name="right" size="5"></br>
-		<input type="submit" value="確定">
-		</form>
-		
-		</body>
-		</html>>
-		
 		$R = $_GET['right'];
 
 		if($R == '打電動')
-			$ture = '答對了！';
+		{
+			$ture = '好聰明，答對了！';
+		}
+		elseif($R == '打手槍')
+		{
+			$ture = '怎麼可能會是打手槍呢！';
+		}
 		else
+		{
 			$ture = '可惜，答錯了';
+		}
 
-		return view('pages.guess',compact('ture'));
+		return view('pages.solution',compact('ture'));
 	}
 
 	public function result()
