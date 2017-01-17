@@ -9,7 +9,7 @@ echo '猜猜小銘平常喜歡做的事：'.'<br>';
 
 foreach ($favorite as $key => $gun) 
 {
-	echo '$key'.'：'.'$gun'.'<br>';
+	echo $key.'：'.$gun.'<br>';
 }
 
 ?>
