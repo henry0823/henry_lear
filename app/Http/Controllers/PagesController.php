@@ -18,8 +18,37 @@ class PagesController extends Controller
 
 	public function favorite()
 	{
-		$favorite = ['看電視','打電腦','運動','逛街','打手x'];
-		return view('pages.guess',compact('favorite'));
+		$favorite = ['看電視','打電動','運動','逛街','打手槍'];
+
+		foreach ($favorite as $key => $gun) 
+		{
+			echo = '猜猜小銘平常喜歡做的事：'.'br'
+			echo = '$key'.'：'.'$gun'.'br';
+		}
+
+		<<!DOCTYPE html>
+		<html>
+		<head>
+			<title></title>
+		</head>
+		<body>
+
+		<form action="/guess" method="get">
+		請輸入：<input type="text" name="right" size="5"></br>
+		<input type="submit" value="確定">
+		</form>
+		
+		</body>
+		</html>>
+		
+		$R = $_GET['right'];
+
+		if($R == '打電動')
+			$ture = '答對了！';
+		else
+			$ture = '可惜，答錯了';
+
+		return view('pages.guess',compact('ture'));
 	}
 
 	public function result()
