@@ -26,11 +26,11 @@ class PagesController extends Controller
 
 		$R = $_GET['right'];
 
-		if($R == '打電動')
+		if($R == '打電動' or $R == '1')
 		{
 			$ture = '好聰明，答對了！';
 		}
-		elseif($R == '打手槍')
+		elseif($R == '打手槍' or $R == '4')
 		{
 			$ture = '怎麼可能會是打手槍呢！';
 		}
