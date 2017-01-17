@@ -16,6 +16,12 @@ class PagesController extends Controller
 		return view('pages.bmi');
 	}
 
+	public function favorite()
+	{
+		$favorite = ['看電視','打電腦','運動','逛街','打手x'];
+		return view('pages.guess',compact('favorite'));
+	}
+
 	public function result()
 	{
 		

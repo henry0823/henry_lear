@@ -35,7 +35,8 @@
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="/">首頁</a>
-          <a class="blog-nav-item" href="/bmi">BMI</a>
+          <a class="blog-nav-item" href="/bmi">計算BMI</a>
+          <a class="blog-nav-item" href="/favorite">猜猜看</a>
         </nav>
       </div>
     </div>
