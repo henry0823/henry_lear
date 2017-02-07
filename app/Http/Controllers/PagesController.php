@@ -11,11 +11,6 @@ class PagesController extends Controller
 		return view('pages.index',compact('hey'));
 	}
 
-	public function bmi()
-	{
-		return view('pages.bmi');
-	}
-
 	public function guess()
 	{
 		$R = $_GET['right'];
