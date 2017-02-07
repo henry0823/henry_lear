@@ -1,6 +1,6 @@
 @extends('layout/style1')
 
-@section('content')
+@section('Hello')
 
 {{ $result }}<br>
 {{ $answer }}
