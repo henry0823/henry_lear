@@ -19,8 +19,6 @@ foreach ($favorite as $key => $gun)
 <input type="submit" value="確定">
 </form>
 
-@stop
-
 @section('answer')
 
 {{ $ture }}
