@@ -2,7 +2,6 @@
 
 use Illuminate\Controller\Request;
 use App\Http\Controllers\Controller;
-use Resources\views\pages\guess.blade;
 
 class PagesController extends Controller
 {
@@ -15,12 +14,9 @@ class PagesController extends Controller
 	public function guess()
 	
 	{
-		if($right != '')
-		{
 			return view('pages.guess');
-		}
-		elseif  
-		{
+
+		
 			{
 				$R = $_GET['right'];
 
@@ -39,7 +35,7 @@ class PagesController extends Controller
 
 				return view('pages.guess',compact('ture'));
 			}
-		}
+		
 	}
 
 
