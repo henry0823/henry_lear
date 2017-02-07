@@ -2,6 +2,7 @@
 
 use Illuminate\Controller\Request;
 use App\Http\Controllers\Controller;
+use resources\views\pages\guess.blade;
 
 class PagesController extends Controller
 {
