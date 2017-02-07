@@ -1,5 +1,5 @@
 @extends('layout/style1')
-@section('Hello')
+@section('answer')
 
 {{ $ture }}
 
