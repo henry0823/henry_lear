@@ -13,11 +13,10 @@ foreach ($favorite as $key => $gun)
 }
 ?>
 
-<form action="/" method="get">
+<form action="/solution" method="get">
 請輸入：<input type="text" name="right" size="5"></br>
 <input type="submit" value="確定">
 </form>
-		
-{{ $ture }}
+
 
 @stop
