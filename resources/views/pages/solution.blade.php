@@ -23,6 +23,6 @@ foreach ($favorite as $key => $gun)
 
 @section('answer')
 
-{{ $ture }}
+<br>{{ $ture }}
 
 @stop
