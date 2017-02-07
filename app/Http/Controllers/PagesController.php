@@ -18,12 +18,6 @@ class PagesController extends Controller
 
 	public function guess()
 	{
-		return view('pages.guess');
-	}
-
-	public function solution()
-	{
-
 		$R = $_GET['right'];
 
 		if($R == '打電動' or $R == '1')
@@ -39,8 +33,9 @@ class PagesController extends Controller
 			$ture = '可惜，答錯了';
 		}
 
-		return view('pages.solution',compact('ture'));
+		return view('pages.guess',compact('ture'));
 	}
+
 
 	public function result()
 	{

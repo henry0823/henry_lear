@@ -11,7 +11,6 @@ foreach ($favorite as $key => $gun)
 {
 	echo $key.'：'.$gun.'<br>';
 }
-
 ?>
 
 <form action="/solution" method="get">
@@ -19,5 +18,6 @@ foreach ($favorite as $key => $gun)
 <input type="submit" value="確定">
 </form>
 		
+{{ $ture }}
 
 @stop

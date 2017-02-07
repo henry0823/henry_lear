@@ -15,6 +15,6 @@ Route::get('/', 'PagesController@index');
 Route::get('/bmi','PagesController@bmi');
 Route::get('/result','PagesController@result');
 Route::get('/guess','PagesController@guess');
-Route::get('/solution','PagesController@solution');
+
 
 ?>
