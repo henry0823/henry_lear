@@ -29,13 +29,13 @@ class PagesController extends Controller
 		{
 			$ture = '怎麼可能會是打手槍呢！';
 		}
-		
+
 		else
 		{
 			$ture = '可惜，答錯了';
 		}
 		
-		return view('pages.guess',compact('ture'));
+		return view('pages.solution',compact('ture'));
 	}
 
 	public function bmi()
