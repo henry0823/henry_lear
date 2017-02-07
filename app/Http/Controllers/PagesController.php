@@ -12,32 +12,31 @@ class PagesController extends Controller
 	}
 
 	public function guess()
-	
 	{
 			return view('pages.guess');
+	}		
 
+	public function solution()
+	{
+		$R = $_GET['right'];
+
+		if($R == '打電動' or $R == '1')
+		{
+			$ture = '好聰明，答對了！';
+		}
+
+		elseif($R == '打手槍' or $R == '4')
+		{
+			$ture = '怎麼可能會是打手槍呢！';
+		}
 		
-			{
-				$R = $_GET['right'];
-
-				if($R == '打電動' or $R == '1')
-				{
-					$ture = '好聰明，答對了！';
-				}
-				elseif($R == '打手槍' or $R == '4')
-				{
-					$ture = '怎麼可能會是打手槍呢！';
-				}
-				else
-				{
-					$ture = '可惜，答錯了';
-				}
-
-				return view('pages.guess',compact('ture'));
-			}
+		else
+		{
+			$ture = '可惜，答錯了';
+		}
 		
+		return view('pages.guess',compact('ture'));
 	}
-
 
 	public function bmi()
 	{
