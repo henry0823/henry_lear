@@ -10,7 +10,4 @@
 <input type="reset" name="reset" value="重設">
 </form>
 
-{{ $result }}<br>
-{{ $answer }}
-
 @stop

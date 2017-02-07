@@ -40,6 +40,11 @@ class PagesController extends Controller
 
 	public function bmi()
 	{
+		return view('pages.bmi');
+	}
+
+	public function result()
+	{
 		
 			$W = $_GET['weight'];
 			$H = $_GET['height'];
@@ -90,7 +95,7 @@ class PagesController extends Controller
 					$answer = "評比：皮包骨";
 				}
 			}
-	return view('pages.bmi',compact('result','answer'));
+	return view('pages.result',compact('result','answer'));
 	}
 }
 
